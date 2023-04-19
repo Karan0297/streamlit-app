@@ -1,6 +1,7 @@
 import streamlit as st
+st.title("Find the largest among the 3 given numbers")
 def largest_number():
-    st.title("Find the largest among the 3 given numbers")
+    
 
     # Create three input boxes for the three numbers
     num1 = st.number_input("Enter the first number:")
