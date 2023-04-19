@@ -1,4 +1,5 @@
 import streamlit as st
+import numpy as np
 st.title("Find the largest among the 3 given numbers")
 
 num1 = st.number_input("Enter the first number:")
